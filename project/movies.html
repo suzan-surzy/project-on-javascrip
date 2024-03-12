@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies trailer</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="movie-one">
+        <img class="image-two" src="./image/tv.png" alt="">
+        <a class="brand" href="#">MovieBox</a>
+        <img class="opensidebar" onclick="openNav()" src="./image/humburger.png">
+       </div>
+       <!-- <div class="container-fluid">
+        <div class="movie">
+          <img class="image1" src="./image/tv.png" alt="">
+          <a class="navbar-brand" href="#">MovieBox</a>
+         </div>
+        <form class="d-flex" role="search"> 
+          <input type="search" placeholder="what did you want to watch ?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+          <div class="Signin"><h3>Sign In</h3>
+            <img src="./image/Menu alt 4.svg" alt="">
+          </div>
+              </div> -->
+         <div id="mySidenav" class="sidenav">
+          <span class="closebtn" onclick="closeNav()">&times;</span>
+          <div class="container-fluid">
+          <div class="movie">
+            <img class="image1" src="./image/tv.png" alt="">
+            <a class="navbar-brand" href="#">MovieBox</a>
+           </div>
+          <form class="d-flex" role="search"> 
+            <input type="search" placeholder="what did you want to watch ?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+     <div class="Signin"><h3>Sign In</h3>
+      <img src="./image/Menu alt 4.svg" alt="">
+    </div>
+        </div>
+            
+        </div>
+        <div class="trailer">
+           <h2>John Wick 3 : Parabellum</h2>
+           <div class="allitem">
+           <span class="IMDb">
+            <img src="./image/imdb.png" alt="">
+            <p>86.0 / 100</p>
+           </span>
+           <span class="apple">
+            <img src="./image/PngItem.png" alt="">
+            <p>97%</p>
+           </span>
+          </div>
+          <div class="paragraph">
+              <p>John Wick is on the run after killing a member of the international assassins' guild,
+                 and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
+          </div>
+          <button class="mybtn">
+            <img src="./image/Play.svg" alt="">
+            <p>Watch Trailer</p>
+          </button>
+        </div>
+    </nav>
+    <div class="featured">
+      <h2>Featured Movies</h2>
+      <span class="greater">
+        <p>See More</p>
+        <span>></span>
+      </span>
+    </div>
+    <div class="container">
+      <div class="row movie-card" id="moviecontainer">
+          <div class="movie-title" id="title"></div>
+          <div class="movie-details" id="details"></div>
+          <div class="movie-details" id="production"></div>
+      </div>
+    </div>
+
+    <script src="bootstrap.js">
+
+    </script>
+
+    
+
+    <script src="movies.js">
+
+    </script>
+</body>
+</html>
